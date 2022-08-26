@@ -1,0 +1,20 @@
+applications:
+  - name: eclipse-2020
+    buildpacks:
+      - staticfile_buildpack
+    memory: 256M
+    command: null
+    path: ./build
+    instances: 1
+    routes:
+      - route: http://eclipse-2020.mybluemix.net/eclipse
+      - route: http://eclipse-2020.mybluemix.net/astronomy
+      - route: http://eclipse-2020.mybluemix.net/totalidad
+      - route: http://eclipse-2020.mybluemix.net/eclipse-patagonia
+      - route: http://eclipse-2020.mybluemix.net/education
+      - route: http://eclipse-2020.mybluemix.net/contact
+      - route: http://eclipse-2020.mybluemix.net/article-1
+      - route: http://eclipse-2020.mybluemix.net/article-2
+      - route: http://eclipse-2020.mybluemix.net/article-3
+      - route: http://eclipse-2020.mybluemix.net/article-4
+      - route: http://eclipse-2020.mybluemix.net/article-5

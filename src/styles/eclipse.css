@@ -1,0 +1,284 @@
+.eclipse-clasification-container-eclipse {
+  height: auto;
+  margin-left: 12%;
+  width: 97%;
+}
+.eclipse-clasification-description {
+  width: 88%;
+  height: 62px;
+  margin-top: 15px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+
+  color: #d8dae3;
+}
+.eclipse-classification-container-section {
+  width: 30%;
+  display: inline-grid;
+}
+.eclipse-classification-image {
+  width: 80%;
+  height: auto;
+
+  background: #c4c4c4;
+}
+.eclipse-classification-title {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ef6060;
+}
+
+#txtdspeclipse {
+  width: 84%;
+  font-size: 1em;
+}
+
+#ecparcial {
+  display: grid;
+  width: 86%;
+  margin-left: 12%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+#fases-eclipse {
+  position: relative;
+  display: flex;
+  width: 90%;
+}
+
+.eclipse-step {
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.eclipse-step h2 {
+  margin-bottom: 10px !important;
+  color: #ffc977;
+}
+
+#ectotal {
+  margin-left: 12%;
+  width: 82%;
+}
+
+#numbersandescrip {
+  display: flex;
+}
+#numbers2 {
+  display: grid;
+  width: 60px;
+}
+#numbers2 h2 {
+  color: #ffc977;
+}
+
+#description-numbers {
+  width: 90%;
+}
+
+#txtectotal {
+  width: 40%;
+}
+
+#ectotal img {
+  width: 70%;
+  padding-left: 2em;
+}
+
+#imgectotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ancho900 {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#influ-sect {
+  margin-top: 30px;
+  margin-left: 12%;
+  width: 82%;
+}
+
+#influ-nat {
+  display: flex;
+  width: 82%;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#influ-nat p {
+  width: 40vw;
+  margin-right: 3vw;
+}
+
+#influ-nat strong {
+  color: #ef6060;
+}
+
+#obs-eclipse {
+  margin-top: 30px;
+  margin-left: 12%;
+}
+
+#obs-eclipse img {
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+#articulos-eclipse {
+  width: 82%;
+  margin-left: 12%;
+  margin-top: 4vh;
+  margin-bottom: 200px;
+}
+
+.cont-articulos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.articles-eclipse {
+  flex: 0 0 42%;
+  margin-right: 30px;
+  margin-top: 14px;
+  width: 40%;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+  #fases-eclipse {
+    display: grid;
+  }
+
+  #ecparcial p,
+  #ectotal p,
+  #influ-nat p,
+  .eclipse-step p {
+    font-size: 3vw !important;
+  }
+
+  #description-numbers {
+    width: 80% !important;
+  }
+
+  #imgectotal {
+    display: grid !important;
+    width: 100% !important;
+  }
+
+  #txtectotal {
+    width: 100% !important;
+    margin-top: 2.4vh !important;
+  }
+
+  #influ-nat {
+    display: grid !important;
+  }
+
+  #influ-nat p {
+    width: 80vw !important;
+  }
+  .cont-articulos {
+    display: grid !important;
+    width: 90% !important;
+  }
+  .articles-eclipse {
+    width: 86% !important;
+    margin-bottom: 3vh;
+  }
+
+  .articles-eclipse p {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #fases-eclipse {
+    display: grid;
+  }
+
+  #ecparcial p,
+  #ectotal p,
+  #influ-nat p,
+  .eclipse-step p {
+    font-size: 3vw !important;
+    font-weight: 300;
+  }
+
+  #description-numbers {
+    width: 80% !important;
+  }
+
+  #imgectotal {
+    display: grid !important;
+    width: 100% !important;
+  }
+
+  #txtectotal {
+    width: 100% !important;
+    margin-top: 2.4vh !important;
+  }
+
+  #influ-nat {
+    display: grid !important;
+  }
+
+  #influ-nat p {
+    width: 80vw !important;
+  }
+  .cont-articulos {
+    display: grid !important;
+    width: 90% !important;
+  }
+  .articles-eclipse {
+    width: 86% !important;
+    margin-bottom: 3vh;
+  }
+
+  .articles-eclipse p {
+    font-size: 4vw !important;
+    width: 70vw;
+  }
+
+  .button_style {
+    width: 33vw !important;
+  }
+
+  #ectotal img {
+    padding: 0px;
+    width: 96%;
+  }
+}
+
+@media (max-width: 400px) {
+  #ecparcial p,
+  #ectotal p,
+  #influ-nat p,
+  .eclipse-step p {
+    font-size: 4vw !important;
+    font-weight: 300;
+  }
+
+  .eclipse-explained-title,
+  #ecparcial h2,
+  #obs-eclipse h2,
+  #ectotal h2,
+  #influ-nat h2,
+  .eclipse-step h2 {
+    font-size: 1.4em !important;
+  }
+}

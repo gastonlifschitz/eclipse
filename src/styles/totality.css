@@ -1,0 +1,32 @@
+#lastyear p,
+#objectives p {
+  font-weight: 300;
+}
+#objectives {
+  margin-left: 12%;
+  height: auto;
+}
+
+#lastyear {
+  margin-left: 12%;
+  height: auto;
+  width: 80%;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 600px) {
+  #lastyear p,
+  #objectives p {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+
+  #lastyear h2,
+  #objectives h2 {
+    font-size: 1.6em !important;
+    width: 90%;
+    line-height: normal;
+    margin-bottom: 0.5em;
+  }
+}

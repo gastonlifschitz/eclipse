@@ -1,0 +1,445 @@
+.title-text {
+  /* position: absolute; */
+  /* height: 111px; */
+  left: 16%;
+
+  font-family: Pathway Gothic One, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6vw;
+  text-transform: uppercase;
+  color: #d8dae3;
+
+  color: #d8dae3;
+}
+.title-text-sup {
+  /* position: absolute; */
+  /* width: 230px;
+  height: 38px;
+  left: 200px; */
+  /* top: 288px; */
+
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #ffc977;
+}
+.description-1 {
+  /* position: absolute; */
+  width: 700px;
+  height: auto;
+  font-family: SF Pro Text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+
+  color: #d8dae3;
+}
+
+.programa-totalidad-title {
+  left: 200px;
+  font-family: Pathway Gothic One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #d8dae3;
+}
+
+.programa-totalidad-text {
+  width: 80vw;
+  left: 10%;
+  /* top: 811px; */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+}
+.programa-totalidad-button {
+  /* position: absolute; */
+  width: 286px;
+  height: 45px;
+}
+
+.last-eclipse-container {
+  /* position: absolute; */
+  height: 362px;
+  left: 200px;
+  /* top: 1091px; */
+}
+.last-eclipse-image {
+  width: 24vw;
+  height: auto;
+  left: 200px;
+  /* top: 1462px; */
+  vertical-align: top !important;
+}
+.last-eclipse-container-text {
+  padding-left: 30px;
+  width: 60vw;
+  display: inline-block;
+}
+
+.last-eclipse-date {
+  height: 38px;
+  left: 320px;
+  top: 1472px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  color: #ef6060;
+}
+
+.eclipse-solar-patagonico-container {
+  /* position: absolute; */
+  left: 200px;
+  display: flex;
+  top: 1546px;
+}
+.eclipse-solar-patagonico-container-text {
+  display: inline-block;
+}
+.eclipse-solar-patagonico-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 47px;
+  height: 47px;
+  color: #ef6060;
+}
+
+.eclipse-solar-patagonico-button {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0px 0px 8px;
+  width: 206px !important;
+  height: 45px;
+}
+.eclipse-solar-patagonico-image {
+  display: inline-block;
+  padding-left: 30px;
+  width: 40vw;
+  align-self: center;
+  height: 262px;
+}
+
+.eclipse-explained-container {
+  /* position: absolute; */
+  height: 342px;
+  left: 200px;
+  top: 1996px;
+}
+.eclipse-explained-container-text {
+  display: inline-block;
+  width: 40vw;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.eclipse-explained-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 47px;
+
+  color: #d8dae3;
+}
+
+.eclipse-explained-description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+}
+.eclipse-explained-button {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0px 0px 8px;
+  width: 206px;
+  height: 45px;
+}
+.eclipse-explained-image {
+  display: inline-block;
+  width: 40vw;
+  align-self: center;
+  vertical-align: top;
+  padding-top: 35px;
+}
+
+.eclipse-clasification-container {
+  /* position: absolute; */
+  height: auto;
+  left: 200px;
+  /* top: 2496px; */
+}
+
+.eclipse-clasification-description {
+  height: auto !important;
+
+  width: 85%;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+}
+.eclipse-classification-container-section {
+  width: 33%;
+  display: inline-grid;
+}
+.eclipse-classification-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.eclipse-classification-title {
+  font-family: rubik, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ef6060;
+}
+.eclipse-live-again-container {
+  /* position: absolute; */
+  height: 342px;
+  left: 200px;
+  /* top: 3496px; */
+}
+
+.programa-totalidad-container {
+  left: 16%;
+  margin-bottom: 6rem;
+}
+
+.image-style{
+  width: 110%;
+}
+
+.programa-totalidad-title {
+  left: 200px;
+  /* top: 765px; */
+  font-family: Pathway Gothic One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #d8dae3;
+}
+.program-container{
+  left:16%;
+  width: 80%;
+}
+.last-eclipse-container {
+  left: 16%;
+  /* top: 1091px; */
+  margin-bottom: 6rem;
+  height: auto;
+}
+.last-eclipse-text {
+  height: auto;
+  width: auto;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+}
+
+/*BREAKPOINT*/
+@media (max-width: 600px) {
+  .last-eclipse-text {
+    width: 80vw;
+  }
+  .last-eclipse-container-text {
+    padding: 4% 0 0 0;
+  }
+
+  .last-eclipse-image {
+    width: 60vw;
+  }
+
+  .eclipse-solar-patagonico-title {
+    width: 60%;
+    height: auto;
+    line-height: normal;
+  }
+}
+
+/* @media (max-width: 400px) {
+  .last-eclipse-image {
+    width: 20vw;
+  }
+} */
+
+.last-eclipse-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #d8dae3;
+  width: 80vw;
+  height: auto;
+}
+.last-eclipse-date {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ef6060;
+}
+
+.eclipse-solar-patagonico-container {
+  display: flex;
+  margin-bottom: 6rem;
+}
+.eclipse-solar-patagonico-container-text {
+  display: inline-block;
+}
+.eclipse-solar-patagonico-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  color: #ef6060;
+}
+.eclipse-solar-patagonico-description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+  width: 48vw;
+}
+.eclipse-solar-patagonico-button {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0px 0px 8px;
+  width: 206px !important;
+}
+.eclipse-solar-patagonico-image {
+  display: inline-block;
+  height: 30vh;
+  align-self: center;
+}
+
+/*BREAKPOINT*/
+@media (max-width: 800px) {
+  .eclipse-solar-patagonico-description {
+    width: 80vw;
+  }
+  .eclipse-solar-patagonico-image {
+    display: none;
+  }
+
+  .eclipse-solar-patagonico-container-text {
+    height: auto;
+  }
+
+  .eclipse-explained-container-text {
+    width: 70vw;
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+
+  .eclipse-explained-image {
+    width: 70vw;
+  }
+
+  .eclipse-classification-container-section {
+    width: 100% !important;
+    display: inline-grid;
+    margin-bottom: 2em;
+  }
+
+  .eclipse-classification-image {
+    width: 80%;
+    height: auto !important;
+    margin-bottom: 1em;
+  }
+}
+
+.eclipse-explained-container {
+  left: 16%;
+  margin-bottom: 6rem;
+  height: auto;
+}
+
+.eclipse-explained-description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #d8dae3;
+}
+.eclipse-explained-button {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0px 0px 8px;
+}
+
+.eclipse-clasification-container {
+  left: 16%;
+  margin-bottom: 6rem;
+  height: auto;
+  width: 93%;
+}
+
+.eclipse-video {
+  width: 85%;
+}
+
+.eclipse-live-again-container3 {
+  display: flex;
+  margin-bottom: 6rem;
+  width: 90vw;
+  /* position: absolute; */
+  /* top: 3200px; */
+  left: 10px;
+}
+
+.eclipse-live-again-container-2 {
+  width: 90vw;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+#eclipse-complete {
+  margin-bottom: 6rem;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+  .eclipse-live-again-container2 {
+    width: 90% !important;
+  }
+
+  .eclipse-live-again-container3 {
+    display: block;
+  }
+}
+
+.eclipse-explained-title3 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 47px;
+  /* position: absolute; */
+  /* top: 3140px; */
+  color: #d8dae3;
+  width: 80vw;
+}

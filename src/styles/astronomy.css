@@ -1,0 +1,92 @@
+#todo {
+  /*width: 70%;*/
+  margin-left: 12%;
+  /* align-self: center;
+  margin: auto; */
+}
+/* 
+#todo div {
+  width: 96%;
+} */
+#astronomia1 p,
+#astronomia2 p,
+#astronomia3 p,
+#astronomia4 p,
+#astronomia5 p,
+#astronomia6 p {
+  font-weight: 300 !important;
+}
+
+#astronomia1 {
+  top: 700px;
+  left: 14%;
+  width: 60% !important;
+}
+
+#astronomia1 h1 {
+  line-height: 8vh;
+}
+#astronomia2 {
+  top: 900px;
+  left: 14%;
+}
+
+#astronomia2 h3 {
+  /* margin-left: 20px; */
+  left: 14%;
+}
+
+#astronomia3 {
+  top: 1280px;
+  left: 14%;
+}
+
+#astronomia4 {
+  top: 1720px;
+  left: 14%;
+  width: 80% !important;
+}
+
+#astronomia3 img {
+  width: 100%;
+}
+
+#astronomia5 {
+  top: 2040px;
+}
+
+#astronomyh3 {
+  top: 1980px;
+  left: 14%;
+  margin-left: 10px;
+  font-size: 2em;
+  width: 80% !important;
+}
+#astronomia5 img {
+  width: 80vw;
+}
+@media (max-width: 600px) {
+  #astronomia5 img {
+    width: 80vw !important;
+    margin-bottom: 20px;
+  }
+
+  #astronomia5 p {
+    text-align: left !important;
+  }
+  #astronomia1 p,
+  #astronomia2 p,
+  #astronomia3 p,
+  #astronomia4 p,
+  #astronomia5 p,
+  #astronomia6 p {
+    font-weight: 300 !important;
+  }
+}
+
+#astronomia6 {
+  top: 2580px;
+  left: 14%;
+  margin-bottom: 100px;
+  width: 90% !important;
+}

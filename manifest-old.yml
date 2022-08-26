@@ -1,0 +1,8 @@
+applications:
+  - name: eclipse-2020v3
+    buildpacks:
+      - sdk-for-nodejs
+    command: npm start
+    memory: 256M
+    path: .
+    instances: 1

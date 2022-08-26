@@ -1,0 +1,6 @@
+{
+  "port": "5000",
+  "host": "localhost",
+  "protocol": "http",
+  "BC_BASE": "http://eclipse-2020v3.mybluemix.net"
+}

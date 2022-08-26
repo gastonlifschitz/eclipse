@@ -1,0 +1,51 @@
+#contenido {
+  top: 760px;
+  left: 12%;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+.doscol-edu {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  width: 80vw;
+}
+
+@media (max-width: 600px) {
+  .doscol-edu {
+    display: grid;
+  }
+
+  .boton {
+    margin-bottom: 1vh;
+  }
+
+  .material {
+    width: 84vw !important;
+  }
+}
+
+.boton {
+  width: 30px;
+  margin-right: 100px;
+}
+
+.material {
+  width: 600px;
+}
+
+.divseducacion {
+  margin-bottom: 100px;
+}
+
+a {
+  color: #ef6060;
+}
+
+a:hover {
+  color: #f6b8b8;
+}

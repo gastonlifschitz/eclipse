@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#name {
+  color: red;
+  border-color: black;
+  border-width: 1px;
+  border: solid;
+}
+
+html,
+body {
+  height: auto;
+  background-color: #0b1521;
+  font-family: Rubik, sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+}
+
+#root {
+  height: 100%;
+}
+
+.all-content {
+  margin-left: 12%;
+}
+
+h1 {
+  font-family: Pathway Gothic One, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 111px;
+  text-transform: uppercase;
+  color: #d8dae3;
+}
+
+h3 {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  color: #ef6060;
+}
+
+h2 {
+  font-family: Rubik, sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+h4 {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  color: #ffc977;
+}
+
+h5 {
+  font-family: Rubik, sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.4vw;
+}
+
+/* clases de las columnas de textos  */
+
+.doscol {
+  /*position: absolute;*/
+  display: flex;
+  /*width: 86vw;*/
+}
+@media (max-width: 600px) {
+  .doscol {
+    display: block !important;
+    width: 86vw;
+  }
+  p {
+    font-size: 1em;
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
+  }
+}
+
+.txtcol {
+  width: 90%;
+  margin-right: 50px;
+}

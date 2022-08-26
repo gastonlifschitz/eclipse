@@ -1,0 +1,68 @@
+.form-container {
+  width: 70%;
+  margin-left: 12%;
+  height: auto;
+  margin-bottom: 4em;
+}
+.name-mail-container {
+  display: flex;
+}
+
+@media (max-width: 540px) {
+  .name-mail-container {
+    display: inline;
+  }
+  .formwidth1 {
+    width: 100%;
+    padding-right: 0px !important;
+    margin-bottom: 1vh;
+  }
+  .contact {
+    margin-top: 4vh;
+    margin-left: 1vh;
+  }
+
+  #form-container .button_syle {
+    width: auto;
+  }
+}
+
+.form-label {
+  font-family: Rubik, sans-serif;
+  font-size: 1em;
+  color: #ffc977;
+}
+
+.formwidth1 {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.formwidth2 {
+  width: 100%;
+}
+
+.form-control {
+  font-family: Rubik, sans-serif;
+}
+
+.controlheight1 {
+  padding-top: 20px !important;
+  padding-bottom: 120px !important;
+}
+
+.contact {
+  height: auto;
+  top: 480px;
+  width: 74vw;
+  display: flex;
+}
+
+.contact .txtcol {
+  font-size: 16px;
+  text-align: center;
+}
+
+#p2 {
+  font-size: 20px;
+}

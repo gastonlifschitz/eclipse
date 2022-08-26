@@ -1,0 +1,40 @@
+.button_style {
+  display: inline-block;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 10px 0px 10px;
+  background: rgba(255, 201, 119, 0.1);
+  border: 2px solid #ef6060;
+  box-sizing: border-box;
+  background: rgba(255, 201, 119, 0.1);
+  border: 1px solid #ef6060;
+  border-radius: 2px;
+  width: fit-content;
+  /* width: 20%; */
+}
+
+.button-style :hover {
+  background: 1px solid #ef6060;
+}
+
+.text-button-style {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* identical to box height */
+
+  color: #ef6060;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+}
+
+.button-style :hover {
+  background-color: #ef6060;
+}

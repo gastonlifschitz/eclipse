@@ -1,0 +1,60 @@
+#caracteristicas {
+  /*margin-left: 170px;*/
+  /*top: 720px;*/
+}
+
+#franjatotalidad {
+  top: 350px;
+}
+
+#dest-rojo p {
+  color: #ef6060;
+}
+
+#prepararse {
+  top: 1190px;
+  width: 86vw;
+}
+
+.colnum {
+  /*width: 86vw;*/
+  /*margin-right: 50px;*/
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.colnum h4 {
+  font-size: 42px !important;
+  margin-right: 10px;
+}
+
+#map {
+  width: 86vw;
+  margin: auto;
+}
+
+#dest-amarillo {
+  color: #ffc977;
+  text-align: center;
+  padding: 0 30px 0 30px;
+  margin-bottom: 100px;
+}
+
+#mapadetalle {
+  width: 100%;
+}
+#maparecorrido {
+  width: 86vw;
+}
+
+#maparecorrido p,
+#mapadetalle p,
+#dest-amarillo p,
+#map p,
+.colnum p,
+#prepararse p,
+#dest-rojo p,
+#franjatotalidad p,
+#caracteristicas p {
+  font-weight: 300;
+}

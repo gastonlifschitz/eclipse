@@ -1,0 +1,119 @@
+body {
+  background-image: url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.banner-content {
+  margin-left: 12%;
+  margin-bottom: 4rem;
+}
+
+.breadcrumb-style {
+  width: 211px;
+  margin-top: 40px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4vw;
+  color: "#E8ECFA";
+  z-index: 1;
+}
+
+.title-text {
+  font-family: Pathway Gothic One, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6vw;
+  text-transform: uppercase;
+  color: #d8dae3;
+}
+@media (max-width: 600px) {
+  .title-text {
+    font-size: 10vw !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  .breadcrumb-style {
+    font-size: 4vw;
+  }
+
+  .title-text-sup {
+    font-size: 3vh !important;
+  }
+  .counter-text {
+    width: 70%;
+    height: 80%;
+    font-size: 4vw !important;
+  }
+  .counter-container {
+    width: 64vw !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .description-1 {
+    width: 90% !important;
+    font-size: 74% !important;
+    line-height: 16px !important;
+    font-weight: 400 !important;
+  }
+
+  .counter-container {
+    padding-left: 18px;
+    background: rgba(239, 96, 96, 0.3);
+  }
+  .popover-banner {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .counter-text {
+    font-size: 2vw;
+  }
+}
+
+.counter-text {
+  width: 90%;
+  height: 30%;
+  margin-top: 10px;
+  left: 12%;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.6vw;
+  line-height: 38px;
+  color: #e8ecfa;
+}
+
+.title-text-sup {
+  width: 230px;
+  margin-top: 2vh;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3vh;
+  color: #ffc977;
+}
+.description-1 {
+  width: 60%;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 22px;
+
+  color: #d8dae3;
+}
+
+.counter-container {
+  width: 39vw;
+  padding-left: 18px;
+  background: rgba(239, 96, 96, 0.3);
+}
+
+.popover-banner {
+  padding-left: 10%;
+  cursor: pointer;
+}
